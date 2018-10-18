@@ -26,6 +26,7 @@
         $(".app_screenshots_slides").owlCarousel({
             items: 1,
             loop: true,
+            rtl:true,
             autoplay: true,
             smartSpeed: 800,
             margin: 30,
