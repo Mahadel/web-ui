@@ -138,6 +138,7 @@ img {
 
 .mt-150 {
     margin-top: 150px;
+    text-align: right;
 }
 
 .mr-15 {
@@ -252,7 +253,7 @@ p {
 }
 
 .line-shape {
-    margin-left: calc(50% - 40px);
+    margin-right: calc(50% - 40px);
 }
 
 .table {
@@ -430,6 +431,7 @@ p {
     z-index: 1;
     background-position: bottom center;
     background-size: cover;
+    text-align: right;
 }
 
 .wellcome_area:after {
@@ -447,7 +449,7 @@ p {
     width: 45%;
     position: absolute;
     bottom: -130px;
-    right: 85px;
+    left: 85px;
     z-index: 9;
 }
 
@@ -530,7 +532,6 @@ p {
     position: absolute;
     top: -134px;
     font-weight: 900;
-    left: -12px;
     z-index: -1;
     color: #fff;
     opacity: .1;
@@ -664,6 +665,7 @@ p {
 
 .single-feature {
     margin-bottom: 50px;
+    text-align: right;
 }
 
 .single-feature > p {
@@ -674,13 +676,15 @@ p {
     color: #fb397d;
     font-size: 30px;
     display: inline-block;
-    float: left;
+    float: right;
     margin-right: 10px;
 }
 
 .single-feature > h5 {
     font-size: 22px;
     color: #5b32b4;
+    margin-right: 50px;    
+
 }
 
 .single-feature > p {
@@ -1041,10 +1045,14 @@ p {
     background: -o-linear-gradient(right, #7873ed, #a865e1);
     background: linear-gradient(to left, #7873ed, #a865e1);
 }
+.membership-description {
+    text-align: right;
+}
 
 .membership-description > h2 {
     color: #ffffff;
     font-size: 36px;
+    
 }
 
 .membership-description > p {
@@ -1073,7 +1081,7 @@ p {
 }
 
 .get-started-button {
-    text-align: right;
+    text-align: left;
 }
 
 /* --------------------------
@@ -1174,7 +1182,7 @@ p {
 }
 
 .footer-contact-area .line-shape {
-    margin-left: 0;
+    margin-right: 0;
 }
 
 .footer-contact-area .heading-text > p {
@@ -1220,6 +1228,7 @@ p {
 
 .footer-contact-area {
     background: #f5f9fc;
+    text-align: right;
 }
 
 .footer-text > p {
