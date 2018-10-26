@@ -4,7 +4,7 @@
     // [ JS Active Code Index ]
 
     // :: 1.0 Owl Carousel Active Code
-    // :: 2.0 Slick Active Code
+    
     // :: 3.0 Footer Reveal Active Code
     // :: 4.0 ScrollUp Active Code
     // :: 5.0 CounterUp Active Code
@@ -46,33 +46,7 @@
         });
     }
 
-    // :: 2.0 Slick Active Code
-    if ($.fn.slick) {
-        $('.slider-for').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            speed: 500,
-            arrows: false,
-            fade: true,
-            asNavFor: '.slider-nav'
-        });
-        $('.slider-nav').slick({
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            speed: 500,
-            asNavFor: '.slider-for',
-            dots: true,
-            centerMode: true,
-            focusOnSelect: true,
-            slide: 'div',
-            autoplay: true,
-            centerMode: true,
-            centerPadding: '30px',
-            mobileFirst: true,
-            prevArrow: '<i class="fa fa-angle-left"></i>',
-            nextArrow: '<i class="fa fa-angle-right"></i>'
-        });
-    }
+    
 
     // :: 3.0 Footer Reveal Active Code
     if ($.fn.footerReveal) {
