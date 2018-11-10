@@ -410,6 +410,16 @@ p {
     text-align: right;
 }
 
+.wellcome_area-privacy{
+    background-image: url(img/bg-img/welcome-bg-p1.png);
+    height: 400px;
+    position: relative;
+    z-index: 1;
+    background-position: bottom center;
+    background-size: cover;
+    text-align: right;
+}
+
 .wellcome_area:after {
     position: absolute;
     width: 100%;
@@ -1119,7 +1129,7 @@ p {
 }
 
 .footer-menu ul li a {
-    border-right: 2px solid #726a84;
+    border-left: 2px solid #726a84;
     display: block;
     padding: 0 7.5px;
     color: #726a84;
@@ -1130,7 +1140,7 @@ p {
 }
 
 .footer-menu ul li:last-child a {
-    border-right: 0 solid #ddd;
+    border-left: 0 solid #ddd;
 }
 
 .footer-social-icon {
