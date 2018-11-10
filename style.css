@@ -19,7 +19,7 @@
 :: 8.0 Screenshots Area CSS
 :: 9.0 Pricing Plan Area CSS
 :: 10.0 Testimonials Area CSS
-:: 11.0 CTA Area CSS Start
+
 :: 12.0 Team Area CSS Start
 :: 13.0 Contact Area CSS Start
 :: 14.0 Footer Area CSS Start
@@ -962,57 +962,6 @@ p {
     left: auto;
     right: 0;
     top: 0;
-}
-
-/* --------------------------
-:: 11.0 CTA Area CSS Start
--------------------------- */
-
-.our-monthly-membership {
-    background: #a865e1;
-    background: -webkit-linear-gradient(to left, #7873ed, #a865e1);
-    background: -webkit-linear-gradient(right, #7873ed, #a865e1);
-    background: -webkit-gradient(linear, right top, left top, from(#7873ed), to(#a865e1));
-    background: -o-linear-gradient(right, #7873ed, #a865e1);
-    background: linear-gradient(to left, #7873ed, #a865e1);
-}
-.membership-description {
-    text-align: right;
-}
-
-.membership-description > h2 {
-    color: #ffffff;
-    font-size: 36px;
-    
-}
-
-.membership-description > p {
-    color: #ffffff;
-    margin-bottom: 0;
-}
-
-.get-started-button > a {
-    background: #ffffff;
-    height: 45px;
-    min-width: 155px;
-    display: inline-block;
-    text-align: center;
-    line-height: 45px;
-    color: #fb397d;
-    font-weight: 500;
-    border-radius: 23px 23px 23px 0;
-}
-
-.get-started-button > a:hover {
-    background: #5b32b4;
-    color: #fff;
-    -webkit-transition-duration: 500ms;
-    -o-transition-duration: 500ms;
-    transition-duration: 500ms;
-}
-
-.get-started-button {
-    text-align: left;
 }
 
 
