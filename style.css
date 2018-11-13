@@ -17,11 +17,7 @@
 :: 6.0 Video Area CSS
 :: 7.0 Cool Facts Area CSS
 :: 8.0 Screenshots Area CSS
-
-:: 10.0 Testimonials Area CSS
-
-:: 12.0 Team Area CSS Start
-:: 13.0 Contact Area CSS Start
+:: 9.0 privacy Area CSS
 :: 14.0 Footer Area CSS Start
 -------------------------- */
 
@@ -396,8 +392,10 @@ p {
 }
 
 
+
+  
 /* --------------------------
-:: 3.0 Wellcome Area CSS
+:: 3.0 wellcome_area Area CSS
 -------------------------- */
 
 .wellcome_area {
@@ -410,15 +408,12 @@ p {
     text-align: right;
 }
 
-.wellcome_area-privacy{
-    background-image: url(img/bg-img/welcome-bg-p1.png);
-    height: 400px;
-    position: relative;
-    z-index: 1;
-    background-position: bottom center;
-    background-size: cover;
-    text-align: right;
-}
+
+
+
+
+
+
 
 .wellcome_area:after {
     position: absolute;
@@ -452,6 +447,13 @@ p {
     z-index: 3;
 }
 
+.wellcome-heading > h4 {
+    font-size:50px;
+    color: #ffffff;
+    font-weight: 300;
+    position: relative;
+    z-index: 3;
+}
 
 
 .wellcome-heading > p {
@@ -775,118 +777,116 @@ p {
 }
 
 /* --------------------------
-:: 10.0 Testimonials Area CSS
+:: 9.0 privacy Area CSS
+-------------------------- */
+.privacy {
+    background: #a865e1;
+   background: -webkit-linear-gradient(to left, #7873ed, #a865e1);
+   background: -webkit-linear-gradient(right, #7873ed, #a865e1);
+   background: -webkit-gradient(linear, right top, left top, from(#7873ed), to(#a865e1));
+   background: -o-linear-gradient(right, #7873ed, #a865e1);
+   background: linear-gradient(to left, #7873ed, #a865e1);
+   height: 900px;
+   position: relative;
+   z-index: 1;
+   background-position: bottom center;
+   background-size: cover;
+   text-align: right;
+}
+
+
+
+.privacy-heading > h2 {
+    font-size: 100px;
+    color: #ffffff;
+    font-weight: 700;
+    position: relative;
+    z-index: 3;
+}
+
+.privacy-heading > h4 {
+    font-size:50px;
+    color: #ffffff;
+    font-weight: 300;
+    position: relative;
+    z-index: 3;
+}
+
+
+.privacy-heading > p {
+    color: #fff;
+}
+
+.privacy-heading > h3 {
+    font-size: 332px;
+    position: absolute;
+    top: -134px;
+    font-weight: 900;
+    z-index: -1;
+    color: #fff;
+    opacity: .1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+}
+
+.privacy-heading {
+    margin-bottom: 100px;
+}
+
+/* --------------------------
+:: 10.0 Terms & Conditions
 -------------------------- */
 
-.clients-feedback-area .client-name > h5 {
-    color: #5b32b4;
-    font-size: 22px;
-    margin-top: 5px;
+
+
+.rule-app {
+    background-color: white;
+    
+    height: 900px;
+    position: relative;
+    z-index: 1;
+    background-position: bottom center;
+    background-size: cover;
+    text-align: right;
 }
 
-.clients-feedback-area .star-icon > i {
-    font-size: 18px;
-    color: #f1b922;
-}
-
-.clients-feedback-area .client-description > p {
-    max-width: 1010px;
-    margin: auto;
-    margin-bottom: 15px;
-    font-size: 22px;
-}
-
-.clients-feedback-area .client > i {
-    font-size: 48px;
-    color: #897ceb;
-    margin-bottom: 30px;
-}
-
-.clients-feedback-area .client-name > p {
-    color: #b5aec4;
-}
-
-.clients-feedback-area .slick-dots {
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center
-}
-
-.clients-feedback-area .slick-dots li button {
-    width: 12px;
-    height: 12px;
-    text-indent: -999999999999999999999999px;
-    border: 3px solid #a49fba;
-    background-color: #fff;
-    border-radius: 50%;
-    margin: 5.5px;
-    outline: none;
-}
-
-.clients-feedback-area .slick-dots li.slick-active button {
-    background-color: #fb397d;
-    border-color: #fb397d;
-}
-
-.clients-feedback-area .slick-slide.client-thumbnail {
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    height: 129px;
+.rule-app-heading > p {
+    color:#000;
 }
 
 
-.clients-feedback-area .slick-slide img {
-    display: block;
-    width: 80px !important;
-    height: 80px !important;
-    border-radius: 50%;
-    border: 5px solid #fff;
-    -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+.rule-app-heading > h2 {
+    font-size: 100px;
+    color: #ffffff;
+    font-weight: 700;
+    position: relative;
+    z-index: 3;
 }
 
-.clients-feedback-area .slick-slide.slick-current img {
-    width: 100px !important;
-    height: 100px !important;
+.rule-app-heading > h4 {
+    font-size:50px;
+    color: #5a1270;
+    font-weight: 300;
+    position: relative;
+    z-index: 3;
 }
 
-.clients-feedback-area .slick-arrow {
+
+
+
+.rule-app-heading > h3 {
+    font-size: 332px;
     position: absolute;
-    width: 30px;
-    background-color: #fff;
-    height: 100%;
-    text-align: center;
-    font-size: 24px;
-    color: #b5aec4;
-    display: block;
-    line-height: 550%;
-    left: 0;
-    z-index: 90;
-    cursor: pointer;
+    top: -134px;
+    font-weight: 900;
+    z-index: -1;
+    color: #fff;
+    opacity: .1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
 }
 
-.clients-feedback-area .slick-arrow.fa-angle-right {
-    left: auto;
-    right: 0;
-    top: 0;
+.rule-app-heading {
+    margin-bottom: 100px;
 }
-
 
 /* --------------------------
 :: 14.0 Footer Area CSS Start
