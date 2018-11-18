@@ -78,11 +78,14 @@ h6 {
     padding-bottom: 50px;
 }
 
-.section_padding_50_20 {
+.section_padding_50_30 {
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
-
+.section_padding_50_150 {
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
 .section_padding_150 {
     padding-top: 150px;
     padding-bottom: 150px;
@@ -95,7 +98,7 @@ h6 {
 
 .section_padding_0_100 {
     padding-top: 0;
-    padding-bottom: 100px;
+ padding-bottom: 100px;
 }
 
 .section_padding_70 {
@@ -581,7 +584,7 @@ p {
     display: block;
 }
 
-.app-download-btn:first-child {
+.app-download-btn:last-child {
     margin-right: 20px;
 }
 
@@ -780,13 +783,7 @@ p {
 :: 9.0 privacy Area CSS
 -------------------------- */
 .privacy {
-    background: #a865e1;
-   background: -webkit-linear-gradient(to left, #7873ed, #a865e1);
-   background: -webkit-linear-gradient(right, #7873ed, #a865e1);
-   background: -webkit-gradient(linear, right top, left top, from(#7873ed), to(#a865e1));
-   background: -o-linear-gradient(right, #7873ed, #a865e1);
-   background: linear-gradient(to left, #7873ed, #a865e1);
-   height: 900px;
+   background-color: white;
    position: relative;
    z-index: 1;
    background-position: bottom center;
@@ -798,7 +795,7 @@ p {
 
 .privacy-heading > h2 {
     font-size: 100px;
-    color: #ffffff;
+    color: #000000;
     font-weight: 700;
     position: relative;
     z-index: 3;
@@ -806,7 +803,7 @@ p {
 
 .privacy-heading > h4 {
     font-size:50px;
-    color: #ffffff;
+    color: #000000;
     font-weight: 300;
     position: relative;
     z-index: 3;
@@ -814,7 +811,7 @@ p {
 
 
 .privacy-heading > p {
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .privacy-heading > h3 {
@@ -823,13 +820,13 @@ p {
     top: -134px;
     font-weight: 900;
     z-index: -1;
-    color: #fff;
+    color: rgb(0, 0, 0);
     opacity: .1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
 }
 
 .privacy-heading {
-    margin-bottom: 100px;
+    margin-bottom:10px;
 }
 
 /* --------------------------
@@ -839,9 +836,13 @@ p {
 
 
 .rule-app {
-    background-color: white;
-    
-    height: 900px;
+  
+    background: #a865e1;
+    background: -webkit-linear-gradient(to left, #7873ed, #a865e1);
+    background: -webkit-linear-gradient(right, #7873ed, #a865e1);
+    background: -webkit-gradient(linear, right top, left top, from(#7873ed), to(#a865e1));
+    background: -o-linear-gradient(right, #7873ed, #a865e1);
+    background: linear-gradient(to left, #7873ed, #a865e1);
     position: relative;
     z-index: 1;
     background-position: bottom center;
