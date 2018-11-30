@@ -802,11 +802,12 @@ p {
 }
 
 .privacy-heading > h4 {
-    font-size:50px;
+    font-size:35px;
     color: #000000;
     font-weight: 300;
     position: relative;
     z-index: 3;
+    padding-bottom: 30px;
 }
 
 
@@ -864,11 +865,12 @@ p {
 }
 
 .rule-app-heading > h4 {
-    font-size:50px;
-    color: #5a1270;
+    font-size:35px;
+    color: #ffffff;
     font-weight: 300;
     position: relative;
     z-index: 3;
+    padding-bottom: 30px;
 }
 
 
