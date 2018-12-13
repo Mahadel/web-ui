@@ -566,6 +566,8 @@ p {
     color: #47425d;
     font-size: 24px;
     margin-right: 15px;
+    margin-left: 5px;
+
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
