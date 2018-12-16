@@ -35,6 +35,9 @@
     .menu_area .navbar-brand {
         font-size: 48px;
     }
+    .menu_area .navbar-brand img {
+        height: 45px;
+    }
     .header_area.sticky {
         height: 50px;
     }
@@ -116,6 +119,9 @@
     }
     .menu_area .navbar-brand {
         font-size: 48px;
+    }
+    .menu_area .navbar-brand img {
+        height: 45px;
     }
     .header_area.sticky {
         height: 50px;

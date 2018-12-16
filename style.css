@@ -1,12 +1,4 @@
-/* --------------------------
-:: Template Name: Colorlib App - App Landing Page 
-:: Template Author: Colorlib
-:: Template Author URI: https://colorlib.com/
-:: Description: Colorlib is a One Page based App Landing Template. It's very clean, creative & beautiful. It's super     responsive & ultra light.
-:: Tags: Colorlib, App Landing, Apps, Responsive App Landing, Bootstrap 4, Free Theme, Free HTML Template, HTML5 Template etc.
-:: Version: v1.0
-:: Created: 11/03/2017
--------------------------- */
+
 
 /* --- [Master Stylesheet] ----
 :: 1.0 Base CSS Start
@@ -18,7 +10,7 @@
 :: 7.0 Cool Facts Area CSS
 :: 8.0 Screenshots Area CSS
 :: 9.0 privacy Area CSS
-:: 14.0 Footer Area CSS Start
+:: 10.0 Footer Area CSS Start
 -------------------------- */
 
 @import 'css/style.css';
@@ -26,7 +18,6 @@
 @import 'css/animate.css';
 @import 'css/magnific-popup.css';
 @import 'css/owl.carousel.min.css';
-@import 'css/slick.css';
 @import 'css/font-awesome.min.css';
 @import 'css/themify-icons.css';
 @import 'css/ionicons.min.css';
@@ -395,7 +386,6 @@ p {
 }
 
 
-
   
 /* --------------------------
 :: 3.0 wellcome_area Area CSS
@@ -432,7 +422,7 @@ p {
 .welcome-thumb {
     width: 45%;
     position: absolute;
-    bottom: -130px;
+    bottom: -10px;
     left: 85px;
     z-index: 9;
 }
@@ -894,7 +884,7 @@ p {
 }
 
 /* --------------------------
-:: 14.0 Footer Area CSS Start
+:: 10.0 Footer Area CSS Start
 -------------------------- */
 
 .footer-text > h2 {
