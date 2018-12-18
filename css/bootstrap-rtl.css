@@ -1155,9 +1155,7 @@ th {
   }
 }
 @media (min-width: 768px) {
-  .navbar-nav {
-    float: right;
-  }
+ 
   .navbar-right {
     float: left !important;
   }

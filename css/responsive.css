@@ -5,13 +5,7 @@
     .menu_area #nav .nav-link {
         padding: 35px 7.5px;
     }
-    .sing-up-button > a {
-        color: #fff;
-        height: 40px;
-        min-width: 152px;
-        line-height: 36px;
-        font-size: 14px;
-    }
+    
     .welcome-thumb {
         width: 50%;
         bottom: -100px;
@@ -49,16 +43,13 @@
         padding: 30px;
         border-radius: 3px;
         background-color: #5b32b4;
-        text-align: left;
+        text-align: center;
     }
-    .sing-up-button {
-        margin-top: 30px;
-        text-align: left;
-    }
+  
     .welcome-thumb {
         width: 50%;
         bottom: -100px;
-        right: 0;
+       
     }
     .wellcome-heading {
         margin-bottom: 70px;
@@ -89,15 +80,7 @@
     .section-heading {
         margin-bottom: 50px;
     }
-    .sing-up-button > a {
-        margin-top: 4px;
-        display: inline-block;
-        border: 2px solid #a883e9;
-        height: 40px;
-        min-width: 160px;
-        line-height: 36px;
-        font-size: 14px;
-    }
+   
     .counter-area {
         min-width: 50px;
     }
@@ -134,12 +117,9 @@
         padding: 20px;
         border-radius: 3px;
         background-color: #5b32b4;
-        text-align: left;
+        text-align: center;
     }
-    .sing-up-button {
-        margin-top: 30px;
-        text-align: left;
-    }
+    
     .header_area {
         top: 0;
     }
